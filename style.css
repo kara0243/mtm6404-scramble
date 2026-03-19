@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f3ee;
+  }
+  
+  .game-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #fffaf5;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #8b5e3c;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 12px;
+    background-color: #f3e8dc;
+    border-radius: 8px;
+  }
+  
+  .word {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .word h2 {
+    font-size: 2.2em;
+    color: #5c4033;
+    letter-spacing: 4px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  input {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 2px solid #d8c3a5;
+    border-radius: 6px;
+    width: 220px;
+    background-color: #fff;
+  }
+  
+  button {
+    padding: 10px 16px;
+    font-size: 16px;
+    background-color: #a47148;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #8b5e3c;
+  }
+  
+  button:disabled {
+    background-color: #c8b7a6;
+    cursor: not-allowed;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #f3e8dc;
+    color: #5c4033;
+  }
